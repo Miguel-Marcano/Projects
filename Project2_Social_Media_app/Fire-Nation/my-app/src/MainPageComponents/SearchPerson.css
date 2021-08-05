@@ -1,0 +1,11 @@
+.searchInput{
+    width: 100%;
+    outline:none;
+    border: none;
+    color:black;
+}
+
+.searchBarOnTop{
+    display: flex;
+
+}

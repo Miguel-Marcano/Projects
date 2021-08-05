@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+
+.video-background{
+    position : absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height:100%;
+    width:auto;
+    height: auto;
+    z-index:-1;
+}
+
+@media(min-aspect-ratio:16/9)
+{
+    .video-background
+    {
+        width:100%;
+        height:auto;
+    }
+    
+}
+
+@media(max-aspect-ratio:16/9)
+{
+    .video-background
+    {
+        width:auto;
+        height:100%;
+    }
+    
+}
+
+.statusSubmit{
+	width: 250px;
+    position: absolute;
+    /*margin-top: 2%;
+    margin-left: -6%;*/
+	font-size: 30px;
+    background-color:steelblue;
+    border-radius: 8px;
+    color: white;
+}
+
+.button3{
+	width: 250px;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 43%;
+    font-size: 20px;
+    background-color:steelblue;
+    border-radius: 8px;
+    color: white;
+}
+
+.button4{
+	width: 250px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 43%;
+    font-size: 20px;
+    background-color:steelblue;
+    border-radius: 8px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    /*margin-top: 10%;*/
+    color:white;
+    /*font-size: 100px;*/
+}

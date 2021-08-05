@@ -1,0 +1,13 @@
+.feed{
+    flex: 5;
+    height: calc(100vh - 60px);
+    color: black;
+    opacity: 1;
+    width: 75em;
+}
+
+.feedWrapper{
+    padding: 10px;
+    color: black;
+    opacity: 1;
+}

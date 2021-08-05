@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="ISO-8859-1">
+	<!--<meta charset="UTF-8">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Reimbursement</title>
+	
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<section class="header">
+        <video autoplay loop class="video-background" muted plays-inline>
+            <source src="flames.mp4" type="video/mp4">
+        </video>
+
+        <h1>
+            Myck Reimbursement Page
+        </h1>
+        
+        <div class="container login-container" style="margin-top: 8%;">
+        <div class="row">
+            <div class="col-md-6 login-form-1">
+                <h3>Employee Login</h3>
+                
+                	<form method="post" action="/Reimbursement/employee">
+                    	<div class="form-group">
+                        	<input type="text" class="form-control" placeholder="Your Username *" value="" name="empusername" />
+                    	</div>
+                    	<div class="form-group">
+                        	<input type="password" class="form-control" placeholder="Your Password *" value="" name="emppassword" />
+                    	</div>
+                    	<div class="form-group">
+                        	<input type="submit" class="btnSubmit" value="Login" />
+                    	</div>
+                    	<div class="form-group">
+                        	<a href="#" class="btnForgetPwd">Forget Password?</a>
+                    	</div>
+                    </form>
+                
+            </div>
+            <div class="col-md-6 login-form-2">
+                <div class="login-logo">
+                    <img src="https://media.istockphoto.com/vectors/vector-image-of-a-flat-isolated-icon-dollar-sign-currency-exchange-vector-id1151557689?k=6&m=1151557689&s=612x612&w=0&h=Vne7TsfLHEQ_pEdPybvyxgkp6s225rMimc9Kgm-h3hM=" alt=""/>
+                </div>
+                <h3>Manager Login</h3>
+                	<form method="post" action="/Reimbursement/manager">
+                		<div class="form-group">
+                        	<input type="text" class="form-control" placeholder="Your Username *" value="" name="manusername" />
+                    	</div>
+                    	<div class="form-group">
+                        	<input type="password" class="form-control" placeholder="Your Password *" value="" name="manpassword"/>
+                    	</div>
+                    	<div class="form-group">
+                        	<input type="submit" class="btnSubmit" value="Login" />
+                    	</div>
+                    	<div class="form-group">
+                        	<a href="#" class="btnForgetPwd">Forget Password?</a>
+                    	</div>
+                	</form>
+            </div>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
